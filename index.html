@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">
+        username
+        <input type="text" id="username" name="username" required />
+      </label>
+      <label for="comment">
+        comment
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+      </label>
+      <label for="check">
+        <input type="checkbox" name="check" id="check" /> Make my comment
+        private
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
